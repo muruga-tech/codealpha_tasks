@@ -1,6 +1,5 @@
-# ---------------------------------------------------------
+
 # Unemployment Analysis 
-# ---------------------------------------------------------
 
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -98,3 +97,4 @@ yearly_change = yearly_trend.iloc[-1] - yearly_trend.iloc[0]
 print(f"• Overall unemployment change from first to last year: {yearly_change:.2f}%")
 
 print("\nAnalysis Completed Successfully!")
+
